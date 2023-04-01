@@ -1,0 +1,30 @@
+/* Contenendor proyectos */
+.container{
+  border-radius: 1rem;
+  background-color: #717187;
+  /* box-shadow: 10px 10px 10px rgb(135, 135, 145); */
+  margin-bottom: 0.5rem;
+}
+
+/* Título proyectos */
+h3 {
+  margin: 20px 0 20px 15px;
+  font-weight: bold;
+<<<<<<< HEAD
+  text-shadow: 1px 1px 2px #000;
+=======
+>>>>>>> a9918f0d90c33674bf2c48304d3b7feea1201c76
+}
+/* Miniaturas de proyectos */
+img {
+  margin-left: 20px;
+  width: 200px;
+  height: auto;
+}
+
+h5{
+  margin-left: 15px;
+}
+.titulo{
+  color:aquamarine;
+}

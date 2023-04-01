@@ -1,0 +1,18 @@
+/* Contenendor habilidades */
+.container{
+    margin-top:.5rem;
+    background-color: #717187;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+}
+/* Título habilidades */
+h3{
+    font-weight: bold;
+<<<<<<< HEAD
+    text-shadow: 1px 1px 2px #000;
+ }
+
+=======
+    
+ }
+>>>>>>> a9918f0d90c33674bf2c48304d3b7feea1201c76

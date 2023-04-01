@@ -1,0 +1,85 @@
+<<<<<<< HEAD
+
+.row{
+    width: 100%;
+    max-height: 100vh;
+=======
+.row{
+    width: 100%;
+>>>>>>> a9918f0d90c33674bf2c48304d3b7feea1201c76
+    margin-bottom: 1.5rem;
+   }
+   
+img{
+<<<<<<< HEAD
+    position: relative;
+    top: -2rem;
+    width: 8rem;
+    margin-left: 6rem;
+    border: 5px solid #f8ffb8;
+    
+}
+
+#nombre{
+    margin-top: .8rem;
+=======
+    box-shadow: 5px 5px 10px rgb(34, 33, 33);
+    width: 8rem;
+    margin-top: -6rem;
+    }
+
+#nombre{
+    width: fit-content;
+    margin: auto;
+    margin-top: 1.5rem;
+>>>>>>> a9918f0d90c33674bf2c48304d3b7feea1201c76
+    font-weight: bold;
+    border-radius: .5rem;
+   
+}
+.acercademi{
+            color: aliceblue;
+<<<<<<< HEAD
+            margin-top: 3rem;
+            border-radius: 1rem;
+            background-color: #717187;
+            margin-bottom: 1rem;              
+}
+
+.acercademi h6{
+    margin-top: 1.5rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px #000;
+}
+
+#nombre, #titulo{
+    padding: auto;
+    margin-left: 30px auto;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px #000;
+    border-radius: .5rem;
+    background-color: #717187;
+    box-shadow: 5px 5px 10px #000;
+}
+
+=======
+            margin-top: -3rem;
+            border-radius: 1rem;
+            background-color: #717187;
+              
+}
+.acercademi h6{
+    margin-top: 1.5rem;
+    font-weight: 600;
+
+}
+
+.epigrafe{
+    color: aliceblue;
+    border-radius: .5rem;
+    background-color: #717187;
+    box-shadow: 5px 5px 10px black;
+       
+
+}
+>>>>>>> a9918f0d90c33674bf2c48304d3b7feea1201c76

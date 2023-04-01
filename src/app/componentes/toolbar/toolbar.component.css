@@ -1,0 +1,12 @@
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background:#052d4f;
+    height: 4rem;
+    margin-bottom: .1rem;
+<<<<<<< HEAD
+    border-bottom: 2px solid #92d2ca;
+=======
+>>>>>>> a9918f0d90c33674bf2c48304d3b7feea1201c76
+}

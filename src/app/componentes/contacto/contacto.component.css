@@ -1,0 +1,62 @@
+<<<<<<< HEAD
+.container-fluid {
+  max-width: 100%;
+  height: 100vh;
+  background-color: #717187;
+  background: url(../../../assets/Tierra_hd_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: #92d2ca;
+  margin-left: 150px;
+}
+img {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 100px;
+}
+
+.email3 {
+  margin: 30px 0 0 0;
+  width: 600px;
+  align-content: center;
+}
+.enlace {
+  margin-top: 40px;
+  color: #92d2ca;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+a{
+  color: #92d2ca;
+  text-decoration: none;
+}
+=======
+.container{
+   
+background-color: #717187;    
+background-image: url(../../../assets/earth-3537401_1920.jpg);
+max-width: 100%;
+height: 600px;
+
+}
+
+h1{
+    color:azure ;
+    margin-left: 150px;
+}
+img{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 100px;
+}
+
+.email3 {
+    margin: 30px 0 0 0;
+    width: 600px;
+    align-content: center;
+}
+>>>>>>> a9918f0d90c33674bf2c48304d3b7feea1201c76

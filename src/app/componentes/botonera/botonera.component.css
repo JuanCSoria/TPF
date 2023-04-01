@@ -1,0 +1,32 @@
+.botones{
+        display:inline-flex;
+        margin-right: 1rem;
+        margin-top: 12px;
+        }  
+      
+
+button{ display: flex;
+        justify-content: center;
+        color:#92d2ca;
+        border-color: #92d2ca;
+<<<<<<< HEAD
+        margin-left: 10px;
+}  
+
+button:hover{
+        color: #335;
+        font-weight: bolder;
+        background: #92d2ca;
+        transition: .3s;
+}
+
+a{
+      text-decoration: none;
+=======
+margin-left: 10px;
+}       
+
+a{text-decoration: none;
+>>>>>>> a9918f0d90c33674bf2c48304d3b7feea1201c76
+
+}

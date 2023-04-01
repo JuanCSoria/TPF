@@ -1,0 +1,25 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+body{
+    color: aliceblue;
+	/* background: #445760; */
+    background: linear-gradient(180deg, #227, #000);
+    font-family: 'Poppins', sans-serif;
+=======
+/* You can add global styles to this file, and also import other style files */
+body{
+    color: aliceblue;
+	background: #445760;
+     margin: 0;
+>>>>>>> a9918f0d90c33674bf2c48304d3b7feea1201c76
+
+    /*background-color: #b7f0fa;*/
+}

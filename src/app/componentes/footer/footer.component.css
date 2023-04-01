@@ -1,0 +1,26 @@
+.row{
+    color: #92d2c2;
+    background-color:#052d4f;
+<<<<<<< HEAD
+    border-top: 2px solid #92d2c2;
+=======
+    box-shadow:2px -2px 5px grey;
+>>>>>>> a9918f0d90c33674bf2c48304d3b7feea1201c76
+    height: 4rem;
+    line-height: .1rem;
+}
+
+p{
+    margin-top: 1rem;
+    font-size: 14px;
+    line-height: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px black;
+<<<<<<< HEAD
+}
+.bandera {
+ width: 1.3rem;
+ margin-left: .7rem;
+=======
+>>>>>>> a9918f0d90c33674bf2c48304d3b7feea1201c76
+}
