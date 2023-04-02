@@ -9,19 +9,14 @@ import { BannerComponent } from './componentes/banner/banner.component';
 import { AcercadeComponent } from './componentes/acercade/acercade.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
-import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
-import { NgCircleProgressModule} from 'ng-circle-progress';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { ToolbarComponent } from './componentes/toolbar/toolbar.component';
 import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
 import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
-<<<<<<< HEAD
-import {HttpClientModule } from '@angular/common/http';
-=======
+import { HttpClientModule } from '@angular/common/http';
 
->>>>>>> a9918f0d90c33674bf2c48304d3b7feea1201c76
 
 
 @NgModule({
@@ -34,23 +29,17 @@ import {HttpClientModule } from '@angular/common/http';
    AcercadeComponent,
    ExperienciaComponent,
    EducacionComponent,
-   HabilidadesComponent,
    ProyectosComponent,
    FooterComponent,
    ToolbarComponent,
    PortfolioComponent,
    IniciarSesionComponent,
-   ContactoComponent,
+   ContactoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-<<<<<<< HEAD
-    NgCircleProgressModule.forRoot({}),
     HttpClientModule
-=======
-    NgCircleProgressModule.forRoot({})
->>>>>>> a9918f0d90c33674bf2c48304d3b7feea1201c76
   ],
   providers: [],
   bootstrap: [AppComponent]

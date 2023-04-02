@@ -1,17 +1,14 @@
-<<<<<<< HEAD
-
 .row{
     width: 100%;
     max-height: 100vh;
-=======
+}
+
 .row{
     width: 100%;
->>>>>>> a9918f0d90c33674bf2c48304d3b7feea1201c76
     margin-bottom: 1.5rem;
    }
    
 img{
-<<<<<<< HEAD
     position: relative;
     top: -2rem;
     width: 8rem;
@@ -22,7 +19,6 @@ img{
 
 #nombre{
     margin-top: .8rem;
-=======
     box-shadow: 5px 5px 10px rgb(34, 33, 33);
     width: 8rem;
     margin-top: -6rem;
@@ -32,14 +28,12 @@ img{
     width: fit-content;
     margin: auto;
     margin-top: 1.5rem;
->>>>>>> a9918f0d90c33674bf2c48304d3b7feea1201c76
     font-weight: bold;
     border-radius: .5rem;
-   
 }
+
 .acercademi{
             color: aliceblue;
-<<<<<<< HEAD
             margin-top: 3rem;
             border-radius: 1rem;
             background-color: #717187;
@@ -60,12 +54,9 @@ img{
     border-radius: .5rem;
     background-color: #717187;
     box-shadow: 5px 5px 10px #000;
-}
-
-=======
-            margin-top: -3rem;
-            border-radius: 1rem;
-            background-color: #717187;
+    margin-top: -3rem;
+    border-radius: 1rem;
+    background-color: #717187;
               
 }
 .acercademi h6{
@@ -79,7 +70,5 @@ img{
     border-radius: .5rem;
     background-color: #717187;
     box-shadow: 5px 5px 10px black;
-       
-
 }
->>>>>>> a9918f0d90c33674bf2c48304d3b7feea1201c76
+
