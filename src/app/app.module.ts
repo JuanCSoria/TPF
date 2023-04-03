@@ -16,7 +16,7 @@ import { PortfolioComponent } from './componentes/portfolio/portfolio.component'
 import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { HttpClientModule } from '@angular/common/http';
-
+import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 
 
 @NgModule({
@@ -34,12 +34,13 @@ import { HttpClientModule } from '@angular/common/http';
    ToolbarComponent,
    PortfolioComponent,
    IniciarSesionComponent,
-   ContactoComponent
+   ContactoComponent,
+   HabilidadesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

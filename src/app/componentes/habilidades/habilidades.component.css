@@ -1,0 +1,12 @@
+.container {
+  background: #717187;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  margin: 5px 0 20px 15px;
+  padding-top: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000;
+}

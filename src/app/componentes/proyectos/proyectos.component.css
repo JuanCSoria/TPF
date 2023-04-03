@@ -1,8 +1,6 @@
-/* Contenendor proyectos */
-.container{
+.container {
+  background: #717187;
   border-radius: 1rem;
-  background-color: #717187;
-  /* box-shadow: 10px 10px 10px rgb(135, 135, 145); */
   margin-bottom: 0.5rem;
 }
 
@@ -19,9 +17,9 @@ img {
   height: auto;
 }
 
-h5{
+h5 {
   margin-left: 15px;
 }
-.titulo{
-  color:aquamarine;
+.titulo {
+  color: aquamarine;
 }
