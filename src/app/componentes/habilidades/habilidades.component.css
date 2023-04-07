@@ -1,12 +1,137 @@
 .container {
-  background: #717187;
-  border-radius: 1rem;
-  margin-bottom: 0.5rem;
+    background: #717187;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+    color: aliceblue;
+    min-width:98%;/* se ajusta a pantallas mayores de 1366px */
+   }
+
+/* graficos circular inicio    */
+
+.row{
+   position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 1rem;
 }
 
-h3 {
-  margin: 5px 0 20px 15px;
-  padding-top: 20px;
+.row h3 {
+  /* background: red; */
+  padding: 15px 0 20px 20px;
+  /* margin: 20px 15px 20px 15px; */
   font-weight: bold;
   text-shadow: 1px 1px 2px #000;
+
+}
+
+ .card{
+    margin-top: 5px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: #778;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .card .percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.row .card .percent svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(270deg);
+}
+
+.row .card .percent svg circle{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 10;    /*ancho de la barra */
+    stroke: rgba(99,99,99,0.7);
+    transform: translate(5px, 5px);
+}
+
+.row .card .percent svg circle:nth-child(2){
+    stroke: var(--clr);
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * var(--num)) / 100);
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 2.5s;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.dot{
+    position: absolute;
+    inset: 3px;  /* centrado del punto */
+    z-index: 10;
+    animation: animateDot 2s linear forwards;
+}
+
+@keyframes animateDot {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(calc(3.6deg * var(--num)));
+    }
+}
+
+.dot::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr), 0 0 20px var(--clr), 0 0 30px var(--clr) ;
+}
+
+.number{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 2.5s;
+}
+
+.number img{
+    width: 40%;
+}
+
+/* grafico circular fin */
+
+@media (max-width: 576px){
+    .row h3 {
+        font-size: 2em;      
+      }
+
+    .card{
+        margin: auto;
+    }
+
 }

@@ -43,3 +43,31 @@ a:hover{
   color:cyan;
   transition: .2s;
 }
+
+@media (max-width:676px) {
+  h1 {
+    padding: 3rem;
+    color: #92d2ca;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+
+  img{
+    width: 150px;
+    margin-left: 33%;
+  }
+
+  .email3 {
+    width: 40rem;
+    align-content: center;
+  }
+
+  a, a:hover{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;    
+  }
+
+
+}

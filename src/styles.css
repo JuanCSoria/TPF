@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"); */
 
 * {
   margin: 0;
@@ -9,8 +9,20 @@
 
 body {
   color: aliceblue;
-  /* background: #445760; */
   background: linear-gradient(180deg, #052d4f,#077, #357);
-  font-family: "Poppins", sans-serif;
-  /*background-color: #b7f0fa;*/
+}
+
+/* barra desplegable personalizada */
+
+::-webkit-scrollbar{
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #052d4f;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #717187;
+  border-radius: 5px;
 }
