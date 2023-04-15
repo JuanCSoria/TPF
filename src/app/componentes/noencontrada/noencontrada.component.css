@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row{
+    height:fit-content;
+    background: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.row img{
+    width: 75vw;
+    height: 85vh;    
+}
+
+@media (max-width:576px) {
+    .row img{
+        width: 100vw;
+        height: 75vh;
+    }
+    
+}

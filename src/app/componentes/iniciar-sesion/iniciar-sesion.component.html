@@ -1,33 +1,51 @@
-<div class="container-fluid">
-  
-  <div class="row">
-    <div class="col-lg-6 col-md-6 col-sd-12 col-xs-12 tarjeta">
-      <h1>INICIAR SESIÓN</h1>
-      <form class="m-5">
-        <div class="mb-3">
-          <label class="form-label"></label>
-          <input
-            type="email"
-            class="form-control"
-            id="Email"
-            placeholder="Email"
-          />
-        </div>
-        <div class="mb-3">
-          <label class="form-label"></label>
-          <input
-            type="password"
-            class="form-control"
-            id="Password"
-            placeholder="Contraseña
-      "
-          />
-        </div>
+<div class="container">
+  <section>
+    <!-- <div class="form-box">
+      <h2>INICIAR SESIÓN</h2>
+      <div class="form-value">
+        <form class="m-5">
+          <div class="mb-3 inputbox">
+            <input
+              type="email"
+              formControlName="email"
+              class="form-control"
+              required
+            />
+            <label for="yo@gmail.com">Email</label>
+            [ngClass] = "{'is-invalid':Email?.errors && Email?.touched,'is-valid': !Email?.errors && Email?.touched }"
+            <div *ngIf = "Email?.errors && Email?.touched">
+              <p *ngIf = "Email?.hasError('required')" class="text-danger">
+                El email es requerido.
+              </p>
+              <p *ngIf = "Email?.hasError('email')" class="text-danger">
+                El formato del email debe ser válido.
+              </p>
+            </div>
+          </div>
 
-        <button type="submit" class="btn btn-outline-success" onclick="login()">
-          Ingresar
-        </button>
-      </form>
-    </div>
-  </div>
+          <div class="mb-3 inputbox">
+            <input
+              type="password"
+              formControlName="password"
+              class="form-control"
+              required
+            />
+            <label for="">Contraseña</label>
+   [ngClass] = "{'is-invalid':Password?.errors && Password?.touched,'is-valid': !Password?.errors && Password?.touched }"
+            <div *ngIf = "Password?.errors && Password?.touched">
+              <p *ngIf = "Password?.hasError('required')" class="text-danger">
+                La contraseña es requerida.
+              </p>
+              <p *ngIf = "Password?.errors?.minlength" class="text-danger">
+                La contraseña debe tener 8 o más caracteres.
+              </p>
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary">Ingresar</button>
+        </form>
+      </div>
+    </div> -->
+  </section>
 </div>

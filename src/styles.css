@@ -1,15 +1,18 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
-  color: aliceblue;
+  color:#357;
+  min-width: 100vh;
   background: linear-gradient(180deg, #052d4f,#077, #357);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* barra desplegable personalizada */
@@ -25,4 +28,12 @@ body {
 ::-webkit-scrollbar-thumb{
   background-color: #717187;
   border-radius: 5px;
+}
+
+@media (max-width:576px) {
+
+  ::-webkit-scrollbar{
+    display: none;   
+  }
+  
 }
