@@ -27,10 +27,4 @@ export class IniciarSesionComponent implements OnInit{
   ngOnInit(): void {    
     }
 
-    get Email(){
-      return this.form.get('email');
-    }
-    get Password(){
-      return this.form.get('password');
-    }
 }

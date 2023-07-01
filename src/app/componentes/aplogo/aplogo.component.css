@@ -1,23 +1,25 @@
 div{
-    padding: 5px;
+    padding-top: .6rem;
+    padding-left: 1rem;
+    width: fit-content;
     display: flex;
     align-items: center;  
     justify-content: center;
-}
-
-a img{
-    width: 130px;     
     cursor: pointer;
 }
 
-a img:hover{
+div img{
+    width: 8rem;    
+}
+
+div img:hover{
     transform: translateX(5px);
     transition: .3s;
 }
 
 
 @media (max-width:576px) {
-    img{
-        width:140px;
+    div a img{
+        width:9rem;
     }
 }

@@ -15,6 +15,24 @@
     text-shadow: 1px 1px 2px #000;
 }
 
+.principal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.principal i{
+    position: relative;
+    top: 1rem;
+    right: 1rem;
+  }
+
+.fa.fa-pen{
+    /* margin-left: 60rem; */
+    font-size:medium;
+    color:rgba(255,255,255,.5);
+    cursor: pointer;
+}
+
 img {
     margin-left: 10px;
     width: 25%;
