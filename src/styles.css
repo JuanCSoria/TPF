@@ -4,13 +4,36 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
-  color: aliceblue;
-  /* background: #445760; */
+  color:#357;
+  min-width: 100vh;
   background: linear-gradient(180deg, #052d4f,#077, #357);
-  font-family: "Poppins", sans-serif;
-  /*background-color: #b7f0fa;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* barra desplegable personalizada */
+
+::-webkit-scrollbar{
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #052d4f;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #717187;
+  border-radius: 5px;
+}
+
+@media (max-width:576px) {
+
+  ::-webkit-scrollbar{
+    display: none;   
+  }
+  
 }

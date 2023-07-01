@@ -1,0 +1,26 @@
+Por falta de internet no podía acceder al CDN para bajar los archivos de Bootstrap, mi portfolio no se veía correctamente y no podía seguir trabajando. Tenía el archivo zip de bootstrap pero Angular no usa los archivos de manera local como el STYLES.CSS, la otra opción era instalar bootstrap con node.js pero no quería tener archivos innecesarios en la carpeta node_modules, entonces pensé cómo usar solamente el archivo bootstrap.min.css en mi proyecto Angular, por eso creé la carpeta LOCAL donde pondría los archivos de bootstrap y las fuentes para poder seguir trabajando en mi proyecto aunque no tenga internet.
+
+Realizé los siguientes pasos:
+1_ Creé una carpeta en SRC que llamé LOCAL en la que pondré estos archivos.
+
+2_ Abrir el archivo angular.json y buscar la opción "build" y dentro de ésta la opción "styles" e incluir la ruta del archivo bootstrap que me quedó así:
+
+"styles": [
+              "src/local/bootstrap.min.css",
+              "src/styles.css"
+            ],
+
+Para conseguir la ruta hay que posicionarse sobre el archivo bootstrap.min.css y presionar el botón secundario para hacer clic en la opción "copiar ruta de acceso relativa" y pegarla en "styles" entre comillas y con las barras invertidas para que Angular las acepte (ver ejemplo arriba).
+
+3_ Debajo de la opción "styles" está la opción "script" que es donde tenemos que agregar la ruta del archivo bootstrap.min.js. Repito los mismos pasos para agregar la ruta de este archivo para que quede así:
+
+"styles": [
+              "src/local/bootstrap.min.css",    <----- ruta agregada
+              "src/styles.css"
+            ],
+ "scripts": [
+              "src/local/bootstrap.min.js"        <---- ruta agregada
+            ]
+			
+Guardé el archivo angular.json y ejecuté mi proyecto con "ng serve -o".
+Todo funciona correctamente de manera offline.

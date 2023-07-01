@@ -1,8 +1,23 @@
-img{
+div{
+    padding: 5px;
+    display: flex;
     align-items: center;  
+    justify-content: center;
 }
 
-img:hover{
-    width: 130px;
-    transition: .2s;
+a img{
+    width: 130px;     
+    cursor: pointer;
+}
+
+a img:hover{
+    transform: translateX(5px);
+    transition: .3s;
+}
+
+
+@media (max-width:576px) {
+    img{
+        width:140px;
+    }
 }

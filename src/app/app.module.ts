@@ -17,6 +17,8 @@ import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-ses
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
+import { NoencontradaComponent } from './componentes/noencontrada/noencontrada.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -35,12 +37,14 @@ import { HabilidadesComponent } from './componentes/habilidades/habilidades.comp
    PortfolioComponent,
    IniciarSesionComponent,
    ContactoComponent,
-   HabilidadesComponent
+   HabilidadesComponent,
+   NoencontradaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

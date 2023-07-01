@@ -2,17 +2,29 @@
   background: #717187;
   border-radius: 1rem;
   margin-bottom: 0.5rem;
+  color: aliceblue;
+  min-width:98%;/* se ajusta a pantallas mayores de 1366px */
 }
 .row{
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   
 }
 
 img {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-left: 10px;
-  width:75%;  
+  width:50%;
+  margin-bottom: 2rem;  
+}
+
+.ap img {
+  width: 75%;
+}
+
+.ti img{
+  width: 75%;
 }
 
 h3 {
@@ -21,10 +33,23 @@ h3 {
   text-shadow: 1px 1px 2px #000;
 }
 
-.ti{
-  width: 25%;
-}
 
 hr{
   color: #000;
 }
+
+@media (max-width: 576px){
+  h3{
+    font-size: 2em;
+  }
+
+  h5{
+    font-size: 1.7rem;
+  }
+  p{
+    font-size: 1.2rem;
+  }
+    
+}
+  
+

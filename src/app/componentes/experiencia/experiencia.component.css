@@ -1,17 +1,16 @@
 /*Contenedor Experiencia*/
 .container {
     color: aliceblue;
-    background-color: #717187;
+    background: #717187;
     border-radius: 1rem;
     margin-bottom: .5rem;
+    min-width:98%;/* se ajusta a pantallas mayores de 1366px */
 }
 
 /*Título experiencia */
-h3 {
-    margin: 20px 0 20px 15px;
-}
 
 #exp {
+    margin: 20px 0 20px 15px;
     font-weight: bold;
     text-shadow: 1px 1px 2px #000;
 }
@@ -19,4 +18,16 @@ h3 {
 img {
     margin-left: 10px;
     width: 25%;
+}
+
+@media (max-width:576px) {
+    h3{
+        font-size: 2em;
+    }
+    h5{
+        font-size: 1.7rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
 }
