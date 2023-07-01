@@ -17,15 +17,27 @@
     gap: 40px;
     padding-bottom: 1rem;
 }
+.principal{
+    display: flex;
+    justify-content: space-between;
+}
+.principal i{
+    position: relative;
+    top: 1rem;
+    right: 1rem;
+  }
 
 .row h3 {
-  /* background: red; */
   padding: 15px 0 20px 20px;
-  /* margin: 20px 15px 20px 15px; */
   font-weight: bold;
   text-shadow: 1px 1px 2px #000;
-
 }
+
+.fa.fa-pen{
+    font-size:medium;
+    color:rgba(255,255,255,.5);
+    cursor: pointer;
+  }
 
  .card{
     margin-top: 5px;

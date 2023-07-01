@@ -6,8 +6,30 @@
   min-width:98%;/* se ajusta a pantallas mayores de 1366px */
 }
 .row{
-  padding-bottom: 3rem;
-  
+  padding-bottom: 3rem;  
+}
+
+.principal{
+  display: flex;
+  justify-content: space-between;
+}
+
+.principal i{
+  position: relative;
+  top: 1rem;
+  right: 1rem;
+}
+
+h3 {
+  margin: 20px 0 20px 15px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.fa.fa-pen{
+  font-size:medium;
+  color:rgba(255,255,255,.5);
+  cursor: pointer;
 }
 
 img {
@@ -26,13 +48,6 @@ img {
 .ti img{
   width: 75%;
 }
-
-h3 {
-  margin: 20px 0 20px 15px;
-  font-weight: bold;
-  text-shadow: 1px 1px 2px #000;
-}
-
 
 hr{
   color: #000;

@@ -19,6 +19,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { NoencontradaComponent } from './componentes/noencontrada/noencontrada.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { PerfilComponent } from './enlace/perfil/perfil.component';
+import { EnlaceproyectoComponent } from './enlace/enlaceproyecto/enlaceproyecto.component';
+import { EnlacehabilidadesComponent } from './enlace/enlacehabilidades/enlacehabilidades.component';
+import { EnlaceexperienciaComponent } from './enlace/enlaceexperiencia/enlaceexperiencia.component';
+import { EnlaceeducacionComponent } from './enlace/enlaceeducacion/enlaceeducacion.component';
 
 
 @NgModule({
@@ -38,7 +43,12 @@ import { ReactiveFormsModule } from '@angular/forms';
    IniciarSesionComponent,
    ContactoComponent,
    HabilidadesComponent,
-   NoencontradaComponent
+   NoencontradaComponent,
+   PerfilComponent,
+   EnlaceproyectoComponent,
+   EnlacehabilidadesComponent,
+   EnlaceexperienciaComponent,
+   EnlaceeducacionComponent
   ],
   imports: [
     BrowserModule,

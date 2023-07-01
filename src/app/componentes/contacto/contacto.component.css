@@ -1,10 +1,11 @@
 .container-fluid {
   max-width: 100%;
   min-height: 100vh;
-  background-color: #717187;
+  background-image: linear-gradient(to right, #568588,#779966,#226886);
   background: url(../../../assets/Tierra_hd_2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+    
 }
 
 h1 {
@@ -25,8 +26,9 @@ img {
   width: 35rem;
   align-content: center;
 }
+
 .enlace {
-  margin-top: 40px;
+  margin-top: 3rem;
   color: #92d2ca;
   font-size: 22px;
   font-weight: bold;
@@ -36,6 +38,7 @@ img {
 a{
   color: #92d2ca;
   text-decoration: none;
+  padding-bottom: 30px;
 }
 
 a:hover{
@@ -44,7 +47,7 @@ a:hover{
   transition: .2s;
 }
 
-@media (max-width:676px) {
+@media (max-width:576px) {
   h1 {
     padding: 3rem;
     color: #92d2ca;

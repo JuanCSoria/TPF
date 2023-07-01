@@ -6,12 +6,29 @@
   min-width:98%;/* se ajusta a pantallas mayores de 1366px */
 }
 
+.principal{
+  display: flex;
+  justify-content: space-between;
+}
+
+.principal i{
+  position: relative;
+  top: 1rem;
+  right: 1rem;
+}
 /* Título proyectos */
 h3 {
   margin: 20px 0 20px 15px;
   font-weight: bold;
   text-shadow: 1px 1px 2px #000;
 }
+
+.fa-pen{
+  font-size:medium;
+  color:rgba(255,255,255,.5);
+  cursor: pointer;
+}
+
 /* Miniaturas de proyectos */
 img {
   margin-left: 20px;

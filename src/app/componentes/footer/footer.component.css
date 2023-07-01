@@ -1,13 +1,26 @@
 
-
-
-.row{
+.footer{ 
+    min-width:auto; 
     color: #bbb;
-    background-color:#052d4f;
     border-top: 2px solid #92d2c2;
-    height: 4rem;
-    line-height: .1rem;
+    height: 6rem;
+    line-height: .1rem; 
+    background-color:#052d4f;   
 }
+
+.footer i{
+    position: relative;
+    top: .6rem;
+    right: 1vw;
+    display: grid;
+    justify-items: end;
+}
+
+.fa.fa-pen{
+    font-size:medium;
+    color:rgba(255,255,255,.5);
+    cursor: pointer;
+  }
 
 p{
     margin-top: 1rem;
@@ -29,9 +42,8 @@ p{
         height: 5rem;
         line-height: 2.1rem;
     }
+
     p{
         font-size: 1.1rem;
-       
-        
     }
 }
