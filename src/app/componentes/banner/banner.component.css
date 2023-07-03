@@ -1,5 +1,8 @@
+.banner{
+  position: relative;
+}
 
-img {
+.banner img {
   width: 100%;
   height: 22rem;
 }
@@ -16,12 +19,10 @@ section{
   padding: 1.2vw 6vw;
   z-index: 1000;
 }
- 
-
 
 /* Animación esfera inicio */
 
-.esfera{
+.banner .esfera{
   display: flex;
   width: 100%;
   height: calc(100vh - 8rem);
@@ -37,32 +38,30 @@ section{
   height: 15rem;
   width: 15rem;
   border-radius: 50%;
-  top: 20%;
+  top: 40%;
   left: 50%;  
   background: linear-gradient(90deg, pink,#7f00ff,#7f00ff,#333);
-  animation: esfera 8s linear infinite;
+  animation: esferas 8s linear infinite;
   
 }
 
-@keyframes esfera {
+@keyframes esferas {
   50% {
-    top: 22%;
-    left: 52%;    
+    top: 37%;    
   }
 }
 /* animación esfera fin */
 
+/* menú de navegación sobre la esfera inicio*/
 .menuitems {
   position: absolute;
-  margin-top: 1rem;
+  top:0;
 }
 
 .menuitems li {
-  position: relative;
   list-style: none;
-  margin: 0 1.5vw;
+  margin: 0 .5vw;
 }
-
 
 .menuitems li a {
   display: block;
@@ -72,14 +71,16 @@ section{
   letter-spacing: 4px;
   text-decoration: none;
   text-transform: uppercase;
-
 }
 
 .menuitems li a:hover {
   color: #f8ffb8;
-  margin-left: -5px;
+  margin-left: -8px;
+  transition: .5s ease;
 }
+/* menú de navegación sobre la esfera fin */
 
+/* menú hamburguesa oculto inicio */
 input {
   display: none;
   visibility: hidden;
@@ -89,21 +90,20 @@ input {
   display: none;
 }
 
-.menuitems .botons {
+.menuitems .botones {
   display: none;
 }
+/* menú hamburguesa oculto fin */
 .ebanner{
   position: relative;
-  /* top: 0;
-  left: 0; */
 }
-.ebanner i{
+
+.ebanner a i{
   position: absolute;
   top: 1rem;
   left: 1rem;
-  width: 10px;
-  height: 10px;
-  cursor: pointer;
+  width: 100px;
+  height: 100px;
 }
 
 .fa-pen{
@@ -123,13 +123,13 @@ input {
     right: 45px;
     width: 31px;
     height: 31px;
-    background: #333;
+    background: #333; /*color de fondo del menú hamburguesa*/
     cursor: pointer;
   }
 
   .navbar label img{
     position: absolute;
-    width: 40px;
+    width: 40px;    /*ancho del menú hamburguesa*/
     height: 40px;
     top: -5px;
     margin-left: -5px;
@@ -142,6 +142,7 @@ input {
     left: 52%;    
   }
 
+  /* menú hamburguesa inicio */
   .menuitems {
     position: fixed;
     top: -180px;
@@ -169,21 +170,21 @@ input {
     transition: 0.5s ease;
   }
 
-  .menuitems .botons{
+  .menuitems .botones{
     display: block;
     margin-left: 8px;
   }
 
-  .botons li a{
+  .botones li a{
     margin-left: -18px;
   }
 
-  .botons li a:hover{
+  .botones li a:hover{
     margin-left: -18px;
   }
 
   #check:checked ~ section .navbar .menuitems {
     right: 0; /* posición del menú desplegado */
   }
-  
+  /* menú hamburguesa fin */
 }
