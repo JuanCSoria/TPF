@@ -1,9 +1,12 @@
+.cabecera{  
+    margin: 0;
+    padding: 0;
+}
+
 .toolbar{
     display: flex;
     justify-content: space-between;
-    width: 100%;
     background:#052d4f;
     height: 4rem;
-    /* margin-bottom: .1rem; */
-    border-bottom: 2px solid #92d2ca;
+    border-bottom: 1px solid #92d2ca;   
 }

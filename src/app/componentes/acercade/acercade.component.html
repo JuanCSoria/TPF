@@ -1,27 +1,29 @@
 
-<div class="container-fluid perfil">
-  <div class="row">
-    <!-- <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div> -->
+<div class="container-fluid contenedor">
+  <div class="row perfil">
 
     <!---------- Imagen de perfil ------->
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center" id="imagenPerfil">
-      <img
-        class="rounded-circle img-fluid mx-auto" src="../../../assets/fotoperfil.jpg"        
-        alt="Imagen perfil"/>
-        <div><i class="fa fa-pen" title="Editar perfil" routerLink="/iniciar-sesion"></i></div>
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-block float-start" id="imagenPerfil">
+      <div class="row">
+        <div>
+            <img class="rounded-circle img-fluid" src="../../../assets/fotoperfil.jpg" alt="Imagen perfil"/>
+            <i class="fa fa-pen" title="Editar perfil" routerLink="/iniciar-sesion"></i>            
+        </div> 
+      </div>      
 
       <!--------- Nombre y título ------->
-      <div class="epigrafe">
+      <div class="row epigrafe">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <h2 id="nombre">Juan Soria</h2>
           <h5 id="titulo">Full Stack Developer Jr.</h5>
       </div>    
     </div>
-    <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12"></div>
-    <!--------- Descripción ----------->
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center acercademi">
-      <h6>SOBRE MÍ</h6>
-      <p class="text-break text-start" id="acercaDe">Admirador de la tecnología e interesado por saber cómo funcionan las cosas. Aprender lo que se pueda todo el tiempo es uno de mis objetivos.</p>
-    </div>
-    <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12"></div>
   </div>
+<!--------- Descripción ----------->
+    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 float-end acercademi">
+      <h6>SOBRE MÍ</h6>
+      <p id="acercaDe">Admirador de la tecnología e interesado por saber cómo funcionan las cosas. Aprender lo que se pueda todo el tiempo es uno de mis objetivos.</p>
+    </div>
+
+  
 </div>
