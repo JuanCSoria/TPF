@@ -16,7 +16,6 @@ const routes: Routes = [
   {path:'', redirectTo:'iniciar-sesion', pathMatch:'full'},
   {path:'portfolio', component:PortfolioComponent},
   {path:'contacto', component:ContactoComponent},
-  {path:'inicio', component: PortfolioComponent},
   {path:'perfil', component: PerfilComponent},
   {path:'enlaceexperiencia', component: EnlaceexperienciaComponent},
   {path:'enlaceeducacion', component: EnlaceeducacionComponent},

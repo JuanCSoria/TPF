@@ -1,63 +1,89 @@
-.acercad{
-    min-width: 100vw;
-    max-height: 100vh;
-    margin-bottom: 1.5rem;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+.contenedor{
+    position: relative;
 }
 
-img{
-    position: relative;
+.perfil{
+    position: relative;    
+    max-width: 100vw;
+    height: fit-content;
+    margin-bottom: 1.5rem;    
+    /* background-color: chartreuse; */
+    margin: auto;
+    
+}
+
+#imagenPerfil{
+    display: block;
+    justify-content: center;   
+}
+
+#imagenPerfil img{
+    position: absolute;
     top: -2rem;
     width: 8rem;
     margin-left: 6rem;
     border: 3px solid #f8ffb8;    
 }
-img:hover{
+#imagenPerfil img:hover{
     transform:rotateX(-20deg);    
     transition: .3s ease;
 }
 
 .fa.fa-pen{
     position: absolute;
-    margin-top: -100px;
-    margin-left: 80px;
+    top: 1rem;
+    right: 0;
     font-size:medium;
     color:rgba(255,255,255,.5);
     cursor: pointer;
 }
 
 .epigrafe{
+    position: relative;
+    top: 5rem;
     width: 20rem;
-    height: 5rem;
-    margin: -1rem 0 0 -4rem;
+    height: 8rem;
+    /* background-color: brown;     */
 } 
 
 .epigrafe #nombre{
-    width: fit-content;
+    position: absolute;
+    top: 2rem;
+    right: 3.5rem;
+    min-width: max-content;
     padding: 5px;
-    margin: auto;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
     color: aliceblue;
     background: #717187;
     font-weight: bold;
     border-radius: .2rem;
     text-shadow: 1px 1px 2px #000;    
-    border-radius: .5rem;
+    border-radius: .3rem;
     box-shadow: 0px 1px 4px #000;
 }
 
 .epigrafe #titulo{
-    width: fit-content;
+    position: absolute;
+    min-width: max-content;
     padding: 5px;
+    bottom: 0;    
+    right: 1.5rem;
     color: aliceblue;
-    background: #717187;
-    margin:1rem 0 0 3.5rem;    
+    background: #717187;    
     text-shadow: 1px 1px 2px #000;    
-    border-radius: .2rem;
+    border-radius: .3rem;
     box-shadow: 0 1px 4px #000;              
 }
 
+/* sobre mí inicio -------------------------------------------------*/
 .acercademi{
-    margin-top: 3rem;
+    top: 0;
+    right: 0;
+    margin:  1.5rem auto;
+    /* margin: 3rem  auto; */
+    max-width: 25rem;
+    height: fit-content;
     color: aliceblue;
     background-color: #717187;
     border-radius: .5rem;            
@@ -71,8 +97,11 @@ img:hover{
 }
 
 .acercademi p{
+    max-width: max-content;
     text-shadow: 1px 1px 1px #000;
 }
+
+/* Sobre mi fin -------------------------------------------------------*/
 
 @media (max-width:576px) {
 

@@ -5,7 +5,7 @@
     height: 50px;
     bottom: 20px;
     right: 70px;
-    z-index: 101;
+    z-index: 100;
     transition: .5s ease-in-out;
 }
 
@@ -20,3 +20,11 @@
     background: azure;
     border-radius: 50%;
 }
+
+.oculto{
+    display: none;
+ }
+
+ .visible{
+    display: block;
+ }    

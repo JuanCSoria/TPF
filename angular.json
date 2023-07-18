@@ -25,11 +25,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/local/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": [
-              "src/local/bootstrap.min.js"
             ]
           },
           "configurations": {
@@ -37,8 +35,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "1mb",
+                  "maximumError": "2mb"
                 },
                 {
                   "type": "anyComponentStyle",

@@ -24,6 +24,7 @@ import { EnlaceproyectoComponent } from './enlace/enlaceproyecto/enlaceproyecto.
 import { EnlacehabilidadesComponent } from './enlace/enlacehabilidades/enlacehabilidades.component';
 import { EnlaceexperienciaComponent } from './enlace/enlaceexperiencia/enlaceexperiencia.component';
 import { EnlaceeducacionComponent } from './enlace/enlaceeducacion/enlaceeducacion.component';
+import { IrArribaComponent } from './componentes/ir-arriba/ir-arriba.component';
 
 
 @NgModule({
@@ -48,7 +49,8 @@ import { EnlaceeducacionComponent } from './enlace/enlaceeducacion/enlaceeducaci
    EnlaceproyectoComponent,
    EnlacehabilidadesComponent,
    EnlaceexperienciaComponent,
-   EnlaceeducacionComponent
+   EnlaceeducacionComponent,
+   IrArribaComponent
   ],
   imports: [
     BrowserModule,
