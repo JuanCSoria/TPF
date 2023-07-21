@@ -7,13 +7,14 @@ import { persona } from '../model/persona.model';
 @Injectable({
   providedIn: 'root'
 })
+
 export class PersonaService {
 
-  URL = 'http://localhost:8080/personas/';
+  URL = 'https://backendtpf.onrender.com/';
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {} 
 
-   public getPersona(): Observable<persona> {
-      return this.http.get<persona>(this.URL + 'traer/perfil');
+   public cargarPerfil(): Observable<persona> {
+      return this.http.get<persona>(this.URL + 'persona/listar/perfil');
    }
 }

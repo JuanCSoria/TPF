@@ -6,7 +6,6 @@ import { Component, HostListener } from '@angular/core';
   styleUrls: ['./ir-arriba.component.css']
 })
 export class IrArribaComponent {
-  isShow?:boolean;
   topPosToStartShowing = 150;
 
   @HostListener('window:scroll')
@@ -19,7 +18,6 @@ export class IrArribaComponent {
     document.documentElement.scrollTop ||
     document.body.scrollTop||
     0;
-    console.log(scrollPosition);
 
     if(scrollPosition >= this.topPosToStartShowing){
       document.getElementById('inicio')?.classList.remove('oculto')

@@ -15,7 +15,6 @@ import { ToolbarComponent } from './componentes/toolbar/toolbar.component';
 import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
 import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
-import { HttpClientModule } from '@angular/common/http';
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { NoencontradaComponent } from './componentes/noencontrada/noencontrada.component';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -25,7 +24,7 @@ import { EnlacehabilidadesComponent } from './enlace/enlacehabilidades/enlacehab
 import { EnlaceexperienciaComponent } from './enlace/enlaceexperiencia/enlaceexperiencia.component';
 import { EnlaceeducacionComponent } from './enlace/enlaceeducacion/enlaceeducacion.component';
 import { IrArribaComponent } from './componentes/ir-arriba/ir-arriba.component';
-
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [

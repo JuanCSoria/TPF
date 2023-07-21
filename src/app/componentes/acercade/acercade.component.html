@@ -6,7 +6,7 @@
     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-block float-start" id="imagenPerfil">
       <div class="row">
         <div>
-            <img class="rounded-circle img-fluid" src="../../../assets/fotoperfil.jpg" alt="Imagen perfil"/>
+            <img class="rounded-circle img-fluid" src={{persona.imgPerfil}} alt="Imagen perfil"/>
             <i class="fa fa-pen" title="Editar perfil" routerLink="/iniciar-sesion"></i>            
         </div> 
       </div>      
@@ -14,15 +14,15 @@
       <!--------- Nombre y título ------->
       <div class="row epigrafe">
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <h2 id="nombre">Juan Soria</h2>
-          <h5 id="titulo">Full Stack Developer Jr.</h5>
+          <h2 id="nombre">{{persona.nombre}}</h2>
+          <h5 id="titulo">{{persona.titulo}}</h5>
       </div>    
     </div>
   </div>
 <!--------- Descripción ----------->
     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 float-end acercademi">
       <h6>SOBRE MÍ</h6>
-      <p id="acercaDe">Admirador de la tecnología e interesado por saber cómo funcionan las cosas. Aprender lo que se pueda todo el tiempo es uno de mis objetivos.</p>
+      <p id="acercaDe">{{persona.acercaDe}}</p>
     </div>
 
   
