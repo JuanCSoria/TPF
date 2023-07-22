@@ -1,21 +1,21 @@
 #inicio{
-    /* display: none; */
     position: fixed;
-    width: 50px;
-    height: 50px;
-    bottom: 20px;
-    right: 70px;
+    width: 2.5rem;
+    height: 2.5rem;
+    bottom: 2rem;
+    right: 2rem;
     z-index: 100;
+    opacity: .6;
     transition: .5s ease-in-out;
 }
 
 #inicio:hover{
     cursor: pointer;
-    opacity: .7;
+    opacity: 1;
 }
 
 .fa-circle-chevron-up{
-    font-size: 3rem;
+    font-size: 2.2rem;
     color:#5f9aaa;
     background: azure;
     border-radius: 50%;
@@ -28,3 +28,9 @@
  .visible{
     display: block;
  }    
+
+ @media (max-width:576px) {   
+    .fa-circle-chevron-up{
+        font-size: 3rem;
+    }
+}

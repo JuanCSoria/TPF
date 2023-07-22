@@ -47,7 +47,7 @@ section{
 
 @keyframes esferas {
   50% {
-    top: 11%;    
+    top: 12%;    
   }
 }
 /* animación esfera fin */
@@ -96,6 +96,7 @@ input {
 /* menú hamburguesa oculto fin */
 .banner1{
   position: relative;
+
 }
 
 
@@ -115,35 +116,37 @@ input {
    .navbar label{
     position: fixed;
     display: block;
-    top: 18px;
-    right: 45px;
-    width: 31px;
-    height: 31px;
+    top: .7rem;    /*posición vertical del icono menú*/
+    right: 2rem;    /*posición horizontal del icono menú*/
+    width: 2.5rem;  /*ancho del fondo del menú hamburguesa*/
+    height: 2.5rem; /*alto del fondo del menú hamburquesa*/
     background: #333; /*color de fondo del menú hamburguesa*/
     cursor: pointer;
   }
 
   .navbar label img{
     position: absolute;
-    width: 40px;    /*ancho del menú hamburguesa*/
-    height: 40px;
+    width: 3.2rem;    /*ancho del menú hamburguesa*/
+    height: 3.2rem;
     top: -5px;
     margin-left: -5px;
   }
 
   .esfera::before{
-    width: 9rem;
-    height: 9rem;
-    top: 12%;
-    left: 5%;    
+    width: 6rem;
+    height: 6rem;
+    top: 14%;
+    left: 10%;    
   }
 
-  /* menú hamburguesa inicio */
+ 
+
+  /*########### menú hamburguesa inicio #################*/
   .menuitems {
     position: fixed;
     top: 0;
-    right: -45vw; /*oculta el menú valor = ancho*/
-    width: 45vw; /* ancho del menú desplegado */
+    right: -65vw; /*oculta el menú valor = ancho*/
+    width: 65vw; /* ancho del menú desplegado */
     height: 100vh;
     background: #eee;
     padding-top: 15vw;
@@ -154,15 +157,16 @@ input {
 
   .menuitems li a {
     color: black;
-    font-size: 3vw;
+    font-size: 4.2vw;    /*tamaño del item*/
+    padding-bottom: 2vw; /*espacio vertical entre items*/
   }
 
   .menuitems li a:hover {
     color: #fff;
     background: #92d2ca;
-    font-size: 3vw;
+    font-size: 4.4vw;
     margin-left: 0;
-    text-shadow: 1px 1px 1px #555;
+    text-shadow: 1px 1px 1px #222;
     transition: 0.5s ease;
   }
 

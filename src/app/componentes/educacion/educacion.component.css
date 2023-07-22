@@ -1,10 +1,12 @@
-.container {
+.container{
+  color: aliceblue;
   background: #717187;
   border-radius: 1rem;
-  margin-bottom: 0.5rem;
-  color: aliceblue;
-  min-width:98%;/* se ajusta a pantallas mayores de 1366px */
+  margin-bottom: 0.5rem;  
+  min-width:98%;
+   /*se ajusta a pantallas mayores de 1366px */
 }
+
 .row{
   padding-bottom: 3rem;  
 }
@@ -16,6 +18,8 @@
 
 .principal i{
   position: relative;
+  width: 1rem;
+  height: 1rem;
   top: 1rem;
   right: 1rem;
 }
@@ -27,7 +31,7 @@ h3 {
 }
 
 .fa.fa-pen{
-  font-size:medium;
+  font-size:smaller;
   color:rgba(255,255,255,.5);
   cursor: pointer;
 }
@@ -36,8 +40,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 10px;
-  width:50%;
+  margin-left: 1rem;
+  width:25%;
   margin-bottom: 2rem;  
 }
 
