@@ -1,75 +1,134 @@
-.container-fluid {
-  max-width: 100%;
+
+.redes {  
   min-height: 100vh;
+  padding-bottom: 3rem;
   background-image: linear-gradient(to right, #568588,#779966,#226886);
   background: url(../../../assets/Tierra_hd_2.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-    
+  background-size: cover;    
 }
 
-h1 {
+.redes .contactos {
   padding: 3rem;
   color: #92d2ca;
   text-align: center;
   font-weight: 800;
+  padding-bottom: 2rem;
 }
 
-img {
-  margin-top: 20px;
-  margin-left: 30px;
+.redes img {
   width: 4rem;
 }
 
-.email3 {
-  margin: 30px 0 0 0;
-  width: 35rem;
-  align-content: center;
+.redes .email-img {
+  display: flex;
+  justify-content: start;
+  min-width: 30rem;
+  margin-bottom: 3rem;
 }
 
 .enlace {
-  margin-top: 3rem;
+  margin-bottom: 3rem;
   color: #92d2ca;
-  font-size: 22px;
+  font-size: 2.1rem;
   font-weight: bold;
-  text-align: left;
 }
 
 a{
+  max-width: fit-content;
+  max-height: fit-content;
   color: #92d2ca;
   text-decoration: none;
-  padding-bottom: 30px;
 }
 
 a:hover{
-  font-size: 24px;
+  font-size: 2rem;
   color:cyan;
-  transition: .2s;
+  transition: .2s ease;
+}
+
+.fa-solid.fa-circle-chevron-left{
+    margin-top: 3rem;
+    margin-right: 2rem;  
+    font-size: 2rem;
+    color: #92d2ca;
+    cursor: pointer;
+    opacity:.6;
+    transition: .5s ease;
+}
+.fa-solid.fa-circle-chevron-left:hover{
+  opacity:1;
+
 }
 
 @media (max-width:576px) {
-  h1 {
+  .contactos {
     padding: 3rem;
     color: #92d2ca;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 900;
-  }
-
-  img{
-    width: 150px;
-    margin-left: 33%;
-  }
-
-  .email3 {
-    width: 40rem;
-    align-content: center;
-  }
-
-  a, a:hover{
     display: flex;
     justify-content: center;
-    font-size: 3rem;    
+    text-align: center;
+    font-family: 'Arial Narrow Bold';
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-shadow: 1px 1px 3px black;
+  }
+
+  .redes img{
+    margin-top: 2rem;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .redes .email-img{
+    display: flex;
+    justify-content: center;
+    min-width: 3rem;
+  }
+
+  a{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  a:hover{
+    font-size: 2.55rem;
+  }
+}
+
+@media (max-width:768px) {
+
+  .contactos {
+    padding: 3rem;
+    color: #92d2ca;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Arial Narrow Bold';
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-shadow: 1px 1px 3px black;
+  }
+  .enlace{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+  }
+
+  a{
+    font-size: 2.5rem;    
+  }
+
+  a:hover{
+    font-size: 2.55rem;
+  }
+
+  .redes .email-img{
+    min-width: 25rem;
+    display: flex;
+    justify-content: center;
   }
 
 
