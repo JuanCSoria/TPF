@@ -22,7 +22,7 @@
 
 .redes .email-img {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   min-width: 30rem;
   margin-bottom: 3rem;
 }
